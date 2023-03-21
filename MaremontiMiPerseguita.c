@@ -15,6 +15,22 @@ int main()
     if(x + y > z && y + z > x && x + z > y)
     {
         printf("è un triangolo\n");
+        if(x == y && y == z && z == x)
+        {
+            printf("è equilatero\n");
+        }
+        else
+        {
+            if(x == y || y == z || z == x)
+            {
+                printf("è isoscele\n");
+            }
+            else
+            {
+                printf("è scaleno\n");
+            }
+            
+         }
     }
     else
     {
