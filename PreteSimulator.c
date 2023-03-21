@@ -8,10 +8,18 @@ int main()
     scanf("%d", &x);
     if(x > 18)
     {
-        printf("Acesso garantito\n");
+        printf("Hai un figlio che vuole fare il chirichetto?\n");
     }
     else
     {
-        printf("Ciao bel bambino\n");
+        if(x > 10)
+        {
+          printf("Ciao bel bambino\n");  
+        }
+        else
+        {
+            printf("Sei molto giovane ma, come Dio accetta tutti nella sua mensa, anche io non ho problemi ad accettarti in questa camera ;)\n");
+        }
+ 
     }
 }
