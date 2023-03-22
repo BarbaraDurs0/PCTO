@@ -19,5 +19,5 @@ int main()
     }
     j = z / k;
     printf("La somma di tutti i numeri che hai inserito è: %d\n", z);
-    printf("La media è: %d", j);
+    printf("La media è: %d\n", j);
 }
