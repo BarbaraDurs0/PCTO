@@ -10,7 +10,7 @@ int x[f];
 while(i < f)
 {
     x[i] = i;
-    printf("%d = %d\n", i, x[i]);
+    printf("x:%d = i:%d\n", i, x[i]);
     i = i + 1;  
 }
 }
