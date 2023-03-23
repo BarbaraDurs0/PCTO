@@ -14,7 +14,7 @@ else
 int main()
 {
 int x = 1;
-while(x !=0)
+while(x != 0)
 {
     printf("Scegli un numero: ");
     scanf("%d", &x);
