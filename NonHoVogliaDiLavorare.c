@@ -1,7 +1,7 @@
 #include <stdio.h>
 int QuiQuoQua (int x, int y, int z)
 {
-    int k = 0;
+int k;
 if(z == 1)
 {
     k = x + y;
@@ -39,7 +39,7 @@ printf("3: Moltiplicazione.\n");
 printf("4: Divisione.\n");
 scanf("%d", &z);
 k = QuiQuoQua (x, y, z);
-if(k == 0)
+if(z > 5 && z < 0)
 {
     printf("Errore\n");
 }
