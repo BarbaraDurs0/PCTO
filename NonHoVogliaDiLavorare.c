@@ -36,7 +36,7 @@ printf("quale delle quattro operazioni vuoi eseguire?\n");
 printf("1: Addizione.\n");
 printf("2: Sottrazione.\n");
 printf("3: Moltiplicazione.\n");
-printf("4: Divisione.");
+printf("4: Divisione.\n");
 scanf("%d", &z);
 k = QuiQuoQua (x, y, z);
 if(k == 0)
