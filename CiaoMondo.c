@@ -14,6 +14,7 @@ scanf("%d", &n);
     {
         printf("Scegli il valore per la variabile N°%d\n", i);
         scanf("%d", &f);
+        x[i] = f;
         i = i + 1;  
         if(f > e)
         {
