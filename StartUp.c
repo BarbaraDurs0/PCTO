@@ -49,8 +49,7 @@ while(a == 0)
         printf("molluschi: ");
         scanf("%d", &allergia[8]);
     }
-    else
-    if(a != 1)
+    else if(a != 1)
     {
         printf("Errore: valore non accettabile inserito.\n");
         a = 0;
@@ -245,5 +244,5 @@ if(totale <= 70 && totale >0)
     totale = totale + spedizione;
     printf("Il totale ammonta a %f.\n", totale);
 }
-Printf("Grazie per averci visitato!");
+printf("Grazie per averci visitato!");
 }
